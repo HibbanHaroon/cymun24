@@ -1,12 +1,13 @@
-import React from 'react'
-import Navbar from './Navbar'
+import React from "react";
+import Navbar from "./Navbar";
+import { Committees } from "./Committees";
 
 const Home = () => {
   return (
-    <div className='text-4xl'>
-     
+    <div className="">
+      <Committees></Committees>
     </div>
   );
-}
+};
 
 export default Home;
